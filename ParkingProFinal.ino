@@ -1,6 +1,8 @@
 /****
    SIT310 : Robotics Application Development
    Final Project : Parking Pro
+   Name : Ereena Bagga
+   Student ID : 221127314
  ****/
  
 #include <PID_v1_bc.h>      // Library for PID control for motors
