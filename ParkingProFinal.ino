@@ -249,8 +249,10 @@ void loop() {
     moveBackward(parkingDelay, currentPosition);
   }
 
-  // Move forward and look for empty spaces
-  ParkingState currentState = FORWARD_PARKING;
+  // Current State = FORWARD_PARKING (P-LEVEL FEATURE)
+  // Current State = REVERSE_PARKING (C-LEVEL FEATURE)
+  // Current State = PARALLEL_PARKING (D-LEVEL FEATURE)
+  ParkingState currentState = FORWARD_PARKING; 
 
   // Perform the parking maneuver
   switch (currentState) {
